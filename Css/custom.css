@@ -1,0 +1,142 @@
+@import url("Css/fonts.css");
+/*font variables*/
+:root{
+	--Coda_Caption:'Coda_Caption',cursive;
+	--Inconsolata:'Inconsolata',cursive;
+	--Lato:'Lato',cursive;
+	--Modak:'Modak',cursive;
+	--Montserrat:'Montserrat',cursive;
+	
+}
+/*  Change Font   */
+ .navbar-brand{
+    font-size:1.6rem;
+    font-weight:bold;
+	font-family:var(--Lato);
+}
+/* change color of nav-link*/
+.nv1{
+    background-color: rgb(10, 9, 27);
+    min-height: 20px;
+}
+ .nv2 {
+    margin-top: 53px;
+    min-height:30px;
+    background-color: darkgrey;
+    
+}
+.navbar #myMenu .custom-nav .nav-item a{
+ 
+ color:black;
+ font-size:13px;
+ text-shadow: black;
+ font-family:var(--Lato);
+ padding-left: 30px;
+ padding-top:20px;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color:red;
+    background: #fff;
+    font-size: 1 rem;
+    transition: 0.2s;
+    
+   }
+   .navbar #myMenu .custom-nav .nav-item a:focus{
+    cursor: pointer;
+    
+   }
+   /*---- make header image-------*/
+   .back-image{
+       background-size:cover;
+       min-height: 70vh;
+       background-position: center center;
+       margin-top:0px;
+       border-radius: 0em;
+   }
+   /*     heading sub title     */
+   .font-italic{
+       font-size: 24px;
+   }
+   /*my heading*/
+   .myheading{
+       margin-top: 50px;
+       margin-left: 50px;
+   }
+   .fi-color{
+       color:#e2350a;
+   }
+   a{
+       color:black;
+   }
+   .active{
+       color:white;
+       background-color: #dc3545;
+   }
+   a:hover{
+       color:#f26571;
+   }
+   .bg-color{
+       background-color: blue;
+   }
+   span{
+       color:red;
+   }
+   .search{
+       display: inline;
+       float: right;
+       height:30px;
+       width:570px;
+   }
+   .search .search-icon{
+       font-size:25px;
+       text-align: center;
+       background-color: #f3a90a;
+      
+   }
+   .search .search-box{
+    height:30px;
+    width:529px;
+     float:left;
+     border-radius: 0px;
+}
+#icon{
+    color: white;
+    float:right;
+    margin-left:450px;
+}
+
+   /* media query*/
+  @media only screen and (max-width: 600px){
+    .my-head{
+        margin-top: 350px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .navbar-brand{
+       display: none;
+    }
+    .search .search-box{
+        height:30px;
+        width:300px;
+         float:left;
+         margin-left: 0px;
+    }
+    .search{
+        display: inline;
+        float: right;
+        height:30px;
+        width:600px;
+        text-align: center;
+        margin-left: 2px;
+
+    }
+    .back-image{
+        background-size:cover;
+     
+        background-position: center center;
+        margin-top:0px;
+        border-radius: 0em;
+    }
+    
+  }
+  
